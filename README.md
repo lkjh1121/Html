@@ -22,8 +22,8 @@
 ##
 
 ### Ch04.
-1.Display 속성
-2.Box 속성
-3.Background 속성
-4.Font 속성
+1. Display 속성
+2. Box 속성
+3. Background 속성
+4. Font 속성
 ##
