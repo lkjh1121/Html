@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .round {
+            border: 2px solid red;      /* 2px짜리 빨강 실선 */
+            border-radius: 20px;        /* 모서리 20px만큼 라운딩 */
+
+        }
+        #bg {
+            background: url(images/pic1.jpg) no-repeat;/* 배경 이미지 */
+
+            background-size: cover; /* 영역을 모두 채우도록 */
+        }
+        .round1 {
+            border: 2px solid blue;  /* 2px짜리 파랑 실선 */
+            border-top-left-radius: 20px;    /* 왼쪽 위 라운딩 - 20px */
+            border-top-right-radius: 20px;   /* 오른쪽 위 라운딩 - 20px */
+        }
+    </style>
+</head>
+<body>
+    <div class="round"></div>    
+    <div class="round" id="bg"></div>
+        
+</body>
+</html>
