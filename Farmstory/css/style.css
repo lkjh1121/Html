@@ -235,3 +235,106 @@ footer > address {
     font: normal 12px 'Verdana';
     color: #888;
 }
+
+   /* 서브페이지 */
+   #sub {
+    width: 100%;
+    height: auto;
+}
+#sub > div {
+    width: 100%;
+    height: 184px;
+    background: url('../img/sub_top_bg.jpg');
+}
+#sub > section {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#sub > section > aside {
+    float: left;
+    width: 176px;
+    height: 650px;
+    background-image: url('../img/sub_aside_bg_line.png');
+    background-repeat: no-repeat;
+    background-position: right;            
+}
+
+#sub > section > aside > img {
+    margin: 20px 0 16px 12px;
+}
+#sub > section > aside > ul {
+    width: 175px;
+    height: 233px;
+    padding-top: 26px;
+    box-sizing: border-box;
+    background: url('../img/sub_aside_bg_lnb.png');            
+}
+#sub > section > aside > ul > li {
+    width: 100%;
+    height: 29px;
+    margin-bottom: 6px;
+}
+#sub > section > aside > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+
+
+#sub > section > article {
+    float: left;
+    width: 804px;
+    min-height: 650px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+#sub > section > article > nav {
+    position: relative;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #c2c2c2;
+    box-sizing: border-box;
+}
+#sub > section > article > nav > img {
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+#sub > section > article > nav > p {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    color: #8c8c8c;
+}
+
+#sub > section > article > nav > p > span {
+    font-weight: bold;
+    color: #91BA15;
+}
+
+/* 팜스토리소개 */
+#sub .cate1 li:nth-child(1) > a {background: url('../img/sub_cate1_lnb1.png');}
+#sub .cate1 li:nth-child(2) > a {background: url('../img/sub_cate1_lnb2.png');}
+#sub .cate1 li:nth-child(1) > a:hover {background: url('../img/sub_cate1_lnb1_ov.png');}
+#sub .cate1 li:nth-child(2) > a:hover {background: url('../img/sub_cate2_lnb2_ov.png');}
+#sub .cate1 li:nth-child(1) > a.on {background: url('../img/sub_cate1_lnb1_ov.png');}
+#sub .cate1 li:nth-child(2) > a.on {background: url('../img/sub_cate1_lnb2_ov.png');}
+/* 장보기 */
+
+/* 농작물이야기 */
+#sub .cate3 > li:nth-child(1) > a {background: url('../img/sub_cate3_lnb1.png');}
+#sub .cate3 > li:nth-child(2) > a {background: url('../img/sub_cate3_lnb2.png');}
+#sub .cate3 > li:nth-child(3) > a {background: url('../img/sub_cate3_lnb3.png');}
+#sub .cate3 > li:nth-child(1) > a:hover {background: url('../img/sub_cate3_lnb1_ov.png');}
+#sub .cate3 > li:nth-child(2) > a:hover {background: url('../img/sub_cate3_lnb2_ov.png');}
+#sub .cate3 > li:nth-child(3) > a:hover {background: url('../img/sub_cate3_lnb3_ov.png');}
+#sub .cate3 > li:nth-child(1) > a.on {background: url('../img/sub_cate3_lnb1_ov.png');}
+#sub .cate3 > li:nth-child(2) > a.on {background: url('../img/sub_cate3_lnb1_ov.png');}
+#sub .cate3 > li:nth-child(3) > a.on {background: url('../img/sub_cate3_lnb3_ov.png');}
+/* 이벤트 */
+/* 커뮤니티 */
